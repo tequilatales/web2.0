@@ -1,0 +1,110 @@
+body{
+    background-color: #f8f0de;
+}
+.anton-regular{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #b22312;
+}
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style:0;
+}
+.logo{
+  height: 8em;
+}
+.colors{
+    color:#b22312, #ff5858, #ff914d, #f8f0de, #242424, #121b1a #fffcf4
+}
+.Booking{
+background-color: #b22312;
+color: #f8f0de;
+font-size: 1.2em;
+border: 5px solid #b22312;
+margin-left: 10px;
+}
+.nav-item{
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.card2{
+  padding-top: 3em;
+}
+@media (min-width: 480px) {
+  .card2{
+    padding-top: 1em;
+  }
+}
+@media (min-width: 992px) {
+  .card2{
+    padding-top: 9em;
+  }
+}
+
+.BarInfo{
+ font-weight: 400;
+}
+.Motto{
+  color:#b22312;
+  font-weight: 700;
+}
+.second{
+  background-color: #242424;
+  border: 5px solid #242424 ;
+}
+.Welcome{
+  font-size: 5rem;
+  margin: 1em;
+}
+
+@media (min-width: 480px) {
+  .Welcome{
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 992px) {
+  .Welcome{
+    font-size: 3rem;
+  }
+}
+.accordionheader{
+  color:#b22312;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.href{
+  color:#b22312;
+}
+h5{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.ul{
+  color: #b22312;
+}
+.where{
+  background-color: #fffcf4;
+}
+.footer{
+font-size: 1.25rem;
+color: #c47970;
+}
+.register{
+  width:1rem
+}
