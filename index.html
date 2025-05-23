@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tequila Tales Bar</title>
+  <link rel="icon" type="image/svg" href="./imgs/TequilaTaleslogo.svg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -17,9 +18,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Handjet:wght@100..900&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top anton-regular" style="background-color: #f8f0de; height: 8em; ">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top anton-regular" id=#logo style="background-color: #f8f0de; height: 8em; ">
     <div class="container-fluid">
-      <img class="logo justify-content-center align-items-center flex" src="./imgs/TequilaTaleslogo.svg" alt="Tequila Tales Bar logo" href="#">
+      <img class="logo justify-content-center align-items-center flex" src="./imgs/TequilaTaleslogo.svg" alt="Tequila Tales Bar logo" href="#logo">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -205,9 +206,8 @@
         referrerpolicy="no-referrer-when-downgrade" class="col-8 col-md-12">
       </iframe>
     </div>
-    <div class="justify-content-center d-block d-md-none">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.1749523871!2d14.401750677499184!3d50.08301121375095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94fcb7d5a1af%3A0xefffdb98334a2033!2s%C3%9Ajezd%20412%2C%20118%2000%20Mal%C3%A1%20Strana!5e0!3m2!1sen!2scz!4v1747661625947!5m2!1sen!2scz" 
-        width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    <div class="d-block d-md-none">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.1749523871!2d14.401750677499184!3d50.08301121375095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94fcb7d5a1af%3A0xefffdb98334a2033!2s%C3%9Ajezd%20412%2C%20118%2000%20Mal%C3%A1%20Strana!5e0!3m2!1sen!2scz!4v1747661625947!5m2!1sen!2scz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </div>
   </div>
@@ -216,20 +216,11 @@
 </div>
 </div>
 <div class="container">
-  <footer class="d-flex justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="d-flex align-items-start gap-2">
-        <img src="./imgs/Registered.svg" class="register" alt="Register mark">
-        <p class="mb-0 montserrat footer">Tequila Tales</p>
-      </div>
-      <div class="col-7 col-md-6">
-      <ul class="nav gap-4">
-        <li class="nav-item"><a href="#AboutUs" class="nav-link footer montserrat md-px-0">About Us</a></li>
-        <li class="nav-item"><a href="#Events" class="nav-link footer montserrat md-px-0">Events</a></li>
-        <li class="nav-item"><a href="#accordion" class="nav-link footer montserrat md-px-0">Q&A</a></li>
-        <li class="nav-item"><a href="#QA" class="nav-link footer montserrat md-px-0">Contact Us</a></li>
-      </ul>
-    </div>
-    </footer>
+  <footer class="montserrat footer" style="padding: 1rem; font-size: 0.9rem; text-align: center;">
+    <p>&copy; 2025 Tequila Tales s.r.o.</p>
+    <p>We do not use cookies or collect personal data. See our <a href="privacypolicy.html" style="color:#c47970;" target="_blank">Privacy Policy</a></p>
+    <p>IČO: 21326142, Děčínská 552/1, 180 00 Praha</p>
+  </footer>
   </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
