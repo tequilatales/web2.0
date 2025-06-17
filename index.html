@@ -39,6 +39,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PP76X9GV"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('a[href*="mojekarticka.cz/rezervace/tequila-tales"]');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', function() {
+        gtag('event', 'book_now_click', {
+          event_category: 'CTA',
+          event_label: 'Tequila Tales - Book Now Button',
+          value: 1
+        });
+      });
+    });
+  });
+</script>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top anton-regular" id=#logo style="background-color: #f8f0de; height: 8em; ">
     <div class="container-fluid">
       <img class="logo justify-content-center align-items-center flex" src="./imgs/TequilaTaleslogo.svg" alt="Tequila Tales Bar logo" href="#logo">
